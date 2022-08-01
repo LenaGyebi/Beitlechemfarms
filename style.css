@@ -71,15 +71,15 @@ ul li.active a{
 .btn{
     border: 1px solid white;
     padding: 15px 30px;
-    background-color: white;
+    background-color:#212121;
     text-decoration: none;
-    color: black;
+    color: white;
     transition: 0.5s ease;
     border-radius: 20px;
    
 }
 
 .btn:hover{
-        background-color: black;
-        color: #fff;
+        background-color: #bdbdbd;
+        color: black;
 }
