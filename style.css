@@ -5,10 +5,11 @@
 }
 
 header{
-    background-color: floralwhite;
+    background: linear-gradient(white, #eeeeee, #bdbdbd, #616161);
     height: 100vh;
     background-size: cover;
 }
+
 
 ul{
     float: right;
@@ -30,8 +31,8 @@ ul li a{
 }
 
 ul li a:hover{
-    background-color: black;
-    color: #fff;
+    background-color: #bdbdbd;
+    color: black;
 }
 
 ul li.active a{
@@ -39,15 +40,18 @@ ul li.active a{
     color: white;
 }
 
-.logo img{
+.logo{
+    padding-top: 10px;
+}
+/*.logo img{
     float: left;
     width: 150px;
     height: auto;
-}
+}*/
 
 .main{
     max-width: 1200px;
-    margin: auto;
+    margin: 5px;
 }
 
 .head{
@@ -82,4 +86,92 @@ ul li.active a{
 .btn:hover{
         background-color: #bdbdbd;
         color: black;
+}
+
+/*Style for About Section*/
+section{
+    position: relative;
+    width: auto;
+    height: auto;
+    padding: 50px;
+}
+
+.content-abt{
+    background-color: #616161;
+    color: #eeeeee;
+    justify-content: center;
+}
+
+/*Style for Products Section*/
+section{
+    position: relative;
+    width: auto;
+    height: auto;
+    padding: 50px;
+}
+ 
+.content-pro{
+    background-color: #616161;
+    color: #eeeeee;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.box{
+    background-color: #bdbdbd;
+    color: #212121;
+    width: 1550px;
+    margin: 10px;
+    
+}
+
+.box-img{
+    margin-bottom: 20px;
+    height: 250px;
+    background-size: cover;
+    
+}
+
+.box1{
+    background-image: url('./Beit/bread.jpg');
+}
+ 
+.box2{
+    background-image: url('./Beit/eggs.jpg');
+}
+
+.box3{
+    background-image: url('./Beit/istockphoto-479986424-612x612.jpg');
+}
+
+.box4{
+    background-image: url('./Beit/plant.jpg');
+}
+
+.box h3{
+    text-align: center;
+}
+
+.box p{
+    padding: 10px;
+}
+
+.box a{
+    background-color: black;
+    color: #eeeeee;
+    padding: 15px 10px;
+    display: block;
+    text-align: center;
+    margin: 10px 50px;
+    text-decoration: none;
+}
+
+.box:hover{
+    background-color: #eeeeee;
+    color: black;
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: all 1s ease;
 }
